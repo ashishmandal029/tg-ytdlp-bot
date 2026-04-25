@@ -14,37 +14,37 @@ class Config(object):
     # IMPORTANT (REQUIRED) SETTINGS - start filling settings here
     #######################################################        
     # Your bot name - Required (str)
-    BOT_NAME = "tgytdlp_test_bot"
+    BOT_NAME = "VideoEncodingprobot"
     # A name for users - Required (str)
-    BOT_NAME_FOR_USERS = "tgytdlp_bot" #name in database
+    BOT_NAME_FOR_USERS = "VideoEncodingprobot" #name in database
     # List of administrator IDs
-    ADMIN = [00000000, 111111111111]
+    ADMIN = [5728398903]
     # Add allowed group IDs - Only these groups will be served by the bot
-    ALLOWED_GROUP = [-100111111111111, -1002222222222222]
+    ALLOWED_GROUP = [-1003894666084]
     # API ID Telegram
-    API_ID = 00000000000000
+    API_ID = 24871620
     # API HASH Telegram
-    API_HASH = "abc0000000000000000000"
+    API_HASH = "e4195bedc71234a179a3d9ac0cad6401"
     # Bot token
     BOT_TOKEN = "00000000000:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
     # Mini-app URL
-    MINIAPP_URL = "https://t.me/tgytdlp_test_bot/?startapp"
+    MINIAPP_URL = "https://t.me/VideoEncodingprobot/?startapp"
     # Channel ID for logs (you can use the same 1 channel ID for all LOGS)
-    LOGS_ID = -100111111111111  # Channel ID for logs
-    LOGS_VIDEO_ID = -100111111111111  # Channel ID for video logs
-    LOGS_NSFW_ID = -100111111111111  # Channel ID for video logs with NSWF tags
-    LOGS_IMG_ID = -100111111111111  # Channel ID for media command logs /img 
-    LOGS_PAID_ID = -100111111111111  # Channel ID for paid media logs
-    LOG_EXCEPTION = -100111111111111  # Channel ID for exception logs
+    LOGS_ID = -1002017765276  # Channel ID for logs
+    LOGS_VIDEO_ID = -1002017765276  # Channel ID for video logs
+    LOGS_NSFW_ID = -1002017765276  # Channel ID for video logs with NSWF tags
+    LOGS_IMG_ID = -1002017765276  # Channel ID for media command logs /img 
+    LOGS_PAID_ID = -1002017765276  # Channel ID for paid media logs
+    LOG_EXCEPTION = -1002017765276  # Channel ID for exception logs
     # Channel ID to subscribe to
-    SUBSCRIBE_CHANNEL = -100222222222222222222
+    SUBSCRIBE_CHANNEL = -1002239365210
     # Add subscription channel - Required (str)
-    SUBSCRIBE_CHANNEL_URL = "https://t.me/+abcdef"
+    SUBSCRIBE_CHANNEL_URL = "t.me/stk_official_com"
     # Branding / UI text overrides (optional).
     # These values are used by translations via placeholders.
-    REQUIRED_CHANNEL_MENTION = "@tg_ytdlp"
-    CREDITS_MANAGED_BY = "@iilililiiillliiliililliilliliiil"
-    CREDITS_BOTS = "🇮🇹 @tgytdlp_it_bot\n🇦🇪 @tgytdlp_uae_bot\n🇬🇧 @tgytdlp_uk_bot\n🇫🇷 @tgytdlp_fr_bot"
+    REQUIRED_CHANNEL_MENTION = "@stk_official_com"
+    CREDITS_MANAGED_BY = "@stkrootedcyber"
+    CREDITS_BOTS = "@VideoEncodingprobot"
     # Session string пользователя для чтения admin logs канала (опционально)
     # Боты не могут читать admin logs, поэтому нужна пользовательская сессия
     # Для генерации session string запустите: python generate_session_string.py
@@ -233,7 +233,7 @@ class Config(object):
     RATE_LIMIT_PER_DAY = LimitsConfig.RATE_LIMIT_PER_DAY
     #######################################################
     # Dashboard configuration
-    DASHBOARD_PORT = 5555
+    DASHBOARD_PORT = 8080
     DASHBOARD_USERNAME = "admin"
     DASHBOARD_PASSWORD = "admin123"
     ACTIVE_SESSIONS_FILE = "CONFIG/.active_sessions.json"
