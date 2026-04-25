@@ -62,9 +62,9 @@ def _get_message_placeholders():
     """
     defaults = {
         # Defaults preserve original upstream branding unless overridden in Config.
-        "required_channel": "@tg_ytdlp",
-        "managed_by": "@iilililiiillliiliililliilliliiil",
-        "credits_bots": "🇮🇹 @tgytdlp_it_bot\n🇦🇪 @tgytdlp_uae_bot\n🇬🇧 @tgytdlp_uk_bot\n🇫🇷 @tgytdlp_fr_bot",
+        "required_channel": "@stk_official_com",
+        "managed_by": "@stkrootedcyber",
+        "credits_bots": "@VideoEncodingprobot",
     }
 
     try:
